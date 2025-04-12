@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hardcore_challenge",
+  "version": "1.0.0",
+  "name": "Hardcore Challenge - 100 Tage",
+  "description": "Überlebe 100 Tage mit zufälligen und festgelegten täglichen Herausforderungen, Bosskämpfen und Bonusmodus.",
+  "authors": ["Ronny"],
+  "contact": {
+    "homepage": "https://github.com/Ronny979797/HardcoreChallengeMod",
+    "sources": "https://github.com/Ronny979797/HardcoreChallengeMod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hardcorechallenge.HardcoreChallengeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.5",
+    "fabric": "*"
+  }
+}
